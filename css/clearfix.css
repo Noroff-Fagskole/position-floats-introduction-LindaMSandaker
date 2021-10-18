@@ -1,0 +1,15 @@
+.float {
+  float: right;
+  margin: 10px;
+  height: 150px;
+}
+
+div {
+  border: 1px solid #000;
+}
+
+.clearfix::after {
+  clear: both; /* right | left | both */
+  content: ""; /* "" puts an empty string to fill out and make it right, inserts content into html file, do not put text in here, can put emoji */
+  display: table; /* set display type: table will stack */
+}

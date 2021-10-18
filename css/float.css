@@ -1,0 +1,23 @@
+.float {
+  background-color: aqua;
+  padding: 30px;
+  margin: 10px;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.floated-right {
+  float: right;
+}
+
+.floated-left {
+  float: left;
+}
+
+/* helper class */
+.clear {
+  clear: right;
+}
+/* wrap section in a div to make a row */

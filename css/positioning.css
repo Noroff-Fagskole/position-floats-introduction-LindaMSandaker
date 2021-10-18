@@ -1,0 +1,48 @@
+/* position: static; 
+(default behavior, don't need to code it) */
+/* 
+
+    .container {
+  position: static;
+} 
+*/
+
+/* position: absolute; (Use % or px) 
+(point of reference of the document top left 0000) 
+*/
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+}
+
+.container2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.container3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: purple;
+  width: 120px;
+  height: 100px;
+}
+
+.container4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: antiquewhite;
+  width: 100px;
+  height: 100px;
+}

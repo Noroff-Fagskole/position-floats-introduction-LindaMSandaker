@@ -1,0 +1,18 @@
+.container {
+  /* parent */
+  background-color: violet;
+  height: 50px;
+  /* 
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  width: 100%;
+  */
+}
+
+.relative-position {
+  /* child */
+  position: relative;
+  top: 25px;
+  left: 40px;
+}

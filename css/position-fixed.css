@@ -1,0 +1,11 @@
+.fixed-position {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+
+  background-color: aquamarine;
+  width: 220px;
+  height: 50px;
+}
+
+/* used to fix the position on the page ex bottom nav */
